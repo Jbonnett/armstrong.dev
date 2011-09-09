@@ -1,0 +1,37 @@
+echo \
+'armstrong/armstrong.apps.donations
+armstrong/armstrong
+armstrong/armstrong.apps.crm
+armstrong/armstrong.dev
+armstrong/armstrong_on_vagrant
+armstrong/armstrong.core.arm_access
+armstrong/armstrong.cli
+armstrong/armstrong.apps.articles
+armstrong/armstrong.core.arm_content
+armstrong/armstrong.apps.related_content
+armstrong/armstrong.hatband
+armstrong/armstrong.core.arm_sections
+armstrong/armstrong.core.arm_layout
+armstrong/armstrong.apps.images
+armstrong/armstrong.apps.galleries
+armstrong/armstrong.utils.importers.wordpress
+armstrong/travis-testing
+armstrong/armstrong_sphinx
+armstrong/armstrong.core.arm_wells
+armstrong/armstrong.apps.documents
+armstrong/armstrong.core.arm_publication
+armstrong/armstrong.apps.audio.backends.id3reader
+armstrong/armstrong.apps.audio
+Jbonnett/armstrong.apps.audio.backends.mutagen
+armstrong/armstrong.utils.backends
+armstrong/armstrong.apps.alerts
+armstrong/armstrong.apps.audio.backends.mutagen
+armstrong/armstrong.apps.events
+armstrong/armstrong.apps.embedded_video
+armstrong/armstrong.apps.content
+armstrong/armstrong_on_gondor
+armstrong/armstrong.apps.places
+armstrong/idios
+armstrong/armstrongcms.org
+armstrong/armstrong.core.arm_profiles'|\
+xargs -n 1 -I repo git clone git://github.com:repo

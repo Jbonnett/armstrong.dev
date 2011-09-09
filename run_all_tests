@@ -1,0 +1,14 @@
+#you should really have this installed
+#pip install armstrong.dev
+
+exec &> test_log
+
+for package in arm* 
+do
+    echo '###########################################' $package '###########################################' 
+    cd $package
+    pip install . 
+    fab test 
+    echo '######################################### end ' $package '########################################' 
+    cd -
+done
